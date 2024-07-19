@@ -4,7 +4,7 @@
 
 # Installing
 
-``` pip install git+ssh://git@github.com/nciccarone86/earthkit-data-wekeo-source.git```
+``` pip install git+https://github.com/nciccarone86/earthkit-data-wekeo-source```
 
 ## Usage
 
