@@ -120,3 +120,4 @@ venv.bak/
 
 # Static files will be taken from angular build
 static/
+earthkit_data_wekeo_source/version.py

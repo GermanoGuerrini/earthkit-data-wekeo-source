@@ -18,7 +18,6 @@ except ImportError:  # pragma: no cover
 
 from .wekeo import WekeoSource
 
-
 __all__ = [
     "WekeoSource",
 ]

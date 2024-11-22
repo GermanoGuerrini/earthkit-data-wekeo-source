@@ -15,6 +15,7 @@ def test_incomplete_json():
     with pytest.raises(AssertionError):
         cml.from_source("wekeo-source", {})
 
+
 @patch.object(WekeoAPIKeyPrompt, "check", return_value=None)
 def test_valid_arguments(api_check):
     with patch("earthkit_data_wekeo_source.wekeo.Client"), patch(
